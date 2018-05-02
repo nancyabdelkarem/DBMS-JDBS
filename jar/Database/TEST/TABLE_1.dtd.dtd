@@ -1,0 +1,7 @@
+<!ELEMENT TABLE_1 (TableIdentifier, Row*)>
+<!ELEMENT TableIdentifier (NAME, ID)>
+<!ELEMENT Row (NAME, ID)>
+<!ELEMENT NAME (#PCDATA)>
+<!ATTLIST NAME type CDATA "VARCHAR">
+<!ELEMENT ID (#PCDATA)>
+<!ATTLIST ID type CDATA "INT">
